@@ -2,6 +2,9 @@
   "name": "@speenput/types",
   "version": "1.0.0",
   "description": "Types for speenput",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nullhtp/speenput-types.git"
@@ -14,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/nullhtp/speenput-types/issues"
   },
-  "homepage": "https://github.com/nullhtp/speenput-types#readme"
+  "homepage": "https://github.com/nullhtp/speenput-types#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
 }

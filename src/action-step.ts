@@ -22,7 +22,7 @@ abstract class ActionStep implements OnInit {
   ) {}
 
   getParams<T extends object = object>(): T {
-    return (this.params as T) ?? {}
+    return (this.params as T) ?? {} as T
   }
 
   init(typeName: string, context: DefaultContext): void {
